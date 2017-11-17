@@ -1,7 +1,7 @@
 {
     "name": "djneo/poseiden-core",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Local client for poseiden",
+    "keywords": ["Home Automation", "Poseiden"],
     "license": "MIT",
     "type": "project",
     "require": {
