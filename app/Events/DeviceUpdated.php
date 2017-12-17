@@ -14,9 +14,8 @@ class DeviceUpdated
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-
     /**
-     * The Device that changed
+     * The Device that has changed
      *
      * @var null
      */
@@ -35,7 +34,6 @@ class DeviceUpdated
      * @var null
      */
     public $oldDeviceState = null;
-
 
     /**
      * Create a new event instance.
