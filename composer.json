@@ -6,12 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "fideloper/proxy": "~3.3",
-        "laravel/framework": "5.5.*",
+        "djneo/colorz": "dev-master",
+        "djneo/poseiden-devices": "dev-master",
+        "elberth90/yeelight-api-client": "^0.5.0",
+        "fideloper/proxy": "~4.0",
+        "laravel/framework": "5.6.*",
         "laravel/tinker": "~1.0",
-        "djneo/colorz" : "dev-master",
-        "sqmk/phue": "^1.6",
-        "elberth90/yeelight-api-client": "^0.5.0"
+        "sqmk/phue": "^1.6"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -28,6 +29,12 @@
             "App\\": "app/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/djneo92nl/Poseiden-Devices"
+        }
+    ],
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
