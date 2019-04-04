@@ -15,10 +15,10 @@ class CreateDevicesTable extends Migration
     {
         Schema::create('devices', function (Blueprint $table) {
             $table->increments('id');
-	        $table->string('name');
-	        $table->string('name');
-	        $table->string('config');
-
+            $table->integer('user_id');
+            $table->string('UUID');
+            $table->string('name');
+	        $table->text('config');
 	        $table->timestamps();
         });
     }

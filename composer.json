@@ -10,7 +10,8 @@
         "djneo/poseiden-devices": "dev-master",
         "elberth90/yeelight-api-client": "^0.5.0",
         "fideloper/proxy": "~4.0",
-        "laravel/framework": "5.6.*",
+        "in10/styleguide": "^0.6.0",
+        "laravel/framework": "5.7.*",
         "laravel/tinker": "~1.0",
         "sqmk/phue": "^1.6",
         "swooletw/laravel-swoole": "^2.3"
